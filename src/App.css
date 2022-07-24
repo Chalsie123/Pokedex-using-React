@@ -1,38 +1,46 @@
-.App {
+*{
+  /* background-image: image('C:\Users\user\OneDrive\Pictures\Pokemon-Pokeballs-on-Pokedex-background.avif'); */
+  /* background: aqua; */
+  /*url("https://images.hdqwalls.com/wallpapers/pokedex-realistic.jpg");*/
+}
+
+h1{
   text-align: center;
+  /* color: orangered; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3{
+ margin: 20px;
+ /* color: orangered; */
+ /* padding: 2px; */
+ display: inline-block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img{
+  margin: 20px;
+  padding: 30px;
+  height: 120px;
+  width: min-content;
+  display: inline-block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+form{
+  text-align: center;
+  margin: auto;
+  /* color: orangered; */
 }
 
-.App-link {
-  color: #61dafb;
+p{
+  /* color: orangered; */
+  margin: 20px;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blank{
+  margin: 0px;
+  padding: 0px;
+}
+
+.iter{
+  margin: 4px;
 }
